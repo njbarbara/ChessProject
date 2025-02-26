@@ -12,7 +12,7 @@ int Pion::getY() const
     return y;
 }
 
-Pion::Pion(int x, int y, Type type, Couleur couleur)
+Pion::Pion(const int x, const int y, const Type type, const Couleur couleur)
     :
       x{x},
       y{y},

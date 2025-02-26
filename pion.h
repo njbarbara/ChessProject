@@ -11,7 +11,7 @@ class Pion
     Type type;
     Couleur couleur;
 public:
-    Pion(int x, int y, Type type, Couleur couleur);
+    Pion(const int x, const int y, const Type type, const Couleur couleur);
     std::string getLogo();
     int getX() const;
     int getY() const;
